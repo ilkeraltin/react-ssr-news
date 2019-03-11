@@ -10,6 +10,11 @@ Demo: [Click to see DEMO](https://react-ssr-ilker.herokuapp.com/)
 
 This project created for a Meetup talk about Server Side Rendering with React.
 
+There is also a SPA version of same project.
+
+- [Visit Repo](https://github.com/ilkeraltin/react-spa-news)
+- [Click to see DEMO](https://react-spa-ilker.herokuapp.com/)
+
 ### Installing
 
 First clone project and install dependencies
