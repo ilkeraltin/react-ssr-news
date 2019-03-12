@@ -1,5 +1,5 @@
 {
-  "name": "react-ssr",
+  "name": "react-news-ssr",
   "version": "1.0.0",
   "description": "Server side rendering project",
   "engines": {
@@ -18,7 +18,7 @@
     "dev:server": "nodemon --watch build --exec \"node build/bundle.js\"",
     "precommit": "pretty-quick --staged"
   },
-  "author": "",
+  "author": "ilker ALTIN",
   "license": "ISC",
   "dependencies": {
     "@babel/polyfill": "^7.2.5",
