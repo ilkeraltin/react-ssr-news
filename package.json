@@ -40,7 +40,7 @@
     "react-router-dom": "4.3.1",
     "redux": "4.0.4",
     "redux-thunk": "2.3.0",
-    "serialize-javascript": "1.6.1",
+    "serialize-javascript": "2.1.0",
     "uglifyjs-webpack-plugin": "^2.1.1",
     "webpack-dev-server": "3.8.1",
     "webpack": "4.40.2",
