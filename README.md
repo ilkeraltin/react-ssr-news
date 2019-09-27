@@ -22,6 +22,7 @@ First clone project and install dependencies
 ```sh
 $ mkdir react-news && cd react-news
 $ git clone https://github.com/ilkeraltin/react-ssr-news.git
+$ cd react-ssr-news
 $ npm install
 ```
 
