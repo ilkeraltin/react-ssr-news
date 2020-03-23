@@ -58,7 +58,7 @@
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^18.1.0",
-    "eslint-config-prettier": "^6.10.0",
+    "eslint-config-prettier": "^6.10.1",
     "eslint-config-react-app": "^3.0.7",
     "eslint-plugin-flowtype": "^2.50.3",
     "eslint-plugin-import": "^2.20.1",
