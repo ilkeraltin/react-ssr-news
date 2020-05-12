@@ -1,6 +1,9 @@
 name: Node CI
 
-on: [push]
+on:
+  pull_request:
+    branches:
+      - master
 
 jobs:
   build:
@@ -23,3 +26,22 @@ jobs:
         npm run build:prod --if-present
       env:
         CI: true
+    
+  automerge:
+    name: Merge pull request from dependabot
+    runs-on: ubuntu-latest
+    needs: [build]
+    if: github.base_ref == 'master' && github.actor == 'dependabot[bot]'
+    steps:
+      - name: Merge
+        uses: actions/github-script@0.9.0
+        with:
+          script: |
+            github.pullRequests.merge({
+              owner: context.payload.repository.owner.login,
+              repo: context.payload.repository.name,
+              pull_number: payload.repository.pull_request.number
+            })
+            github_token: ${{github.token}}
+            
+            
