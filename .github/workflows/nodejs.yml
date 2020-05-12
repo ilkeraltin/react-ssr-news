@@ -31,17 +31,17 @@ jobs:
     name: Merge pull request from dependabot
     runs-on: ubuntu-latest
     needs: [build]
-    if: github.base_ref == 'master' && (github.actor == 'dependabot[bot]' || github.actor == 'dependabot-preview[bot]')
+    if: github.actor == 'dependabot[bot]' || github.actor == 'dependabot-preview[bot]'
     steps:
       - name: Merge
         uses: actions/github-script@0.9.0
         with:
           script: |
-            github.pullRequests.merge({
+            await github.pulls.merge({
               owner: context.payload.repository.owner.login,
               repo: context.payload.repository.name,
-              pull_number: payload.repository.pull_request.number
+              pull_number: context.payload.pull_request.number
             })
-            github_token: ${{github.token}}
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
             
             
