@@ -48,7 +48,7 @@
     "webpack-node-externals": "1.7.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.6",
+    "@babel/core": "^7.10.0",
     "@babel/preset-env": "^7.10.0",
     "@babel/preset-react": "^7.10.0",
     "babel-eslint": "^10.1.0",
