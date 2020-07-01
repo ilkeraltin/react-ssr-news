@@ -21,7 +21,7 @@
   "author": "ilker ALTIN",
   "license": "ISC",
   "dependencies": {
-    "@babel/polyfill": "^7.10.1",
+    "@babel/polyfill": "^7.10.4",
     "axios": "0.19.2",
     "compression": "^1.7.4",
     "compression-webpack-plugin": "^4.0.0",
