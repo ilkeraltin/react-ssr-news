@@ -35,7 +35,7 @@
     "react": "16.13.1",
     "react-helmet": "6.1.0",
     "react-lazy-load-image-component": "^1.5.0",
-    "react-redux": "7.2.0",
+    "react-redux": "7.2.1",
     "react-router-config": "5.1.1",
     "react-router-dom": "5.2.0",
     "redux": "4.0.5",
