@@ -43,7 +43,7 @@
     "serialize-javascript": "4.0.0",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "webpack-dev-server": "3.11.0",
-    "webpack": "4.44.0",
+    "webpack": "4.44.1",
     "webpack-merge": "4.2.2",
     "webpack-node-externals": "2.5.0"
   },
