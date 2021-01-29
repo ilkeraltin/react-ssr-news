@@ -32,7 +32,7 @@ const HomePage = props => {
             <span className="card-title">{article.title}</span>
           </div>
           <div className="card-action">
-            <a href="javascript:void(0)" onClick={() => readArticle(article)}>
+            <a className="waves-effect waves-light" onClick={() => readArticle(article)}>
               Read More
             </a>
           </div>

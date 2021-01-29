@@ -21,7 +21,7 @@ const Header = () => {
             <a href="/" className="brand-logo">
               SSR News
             </a>
-            <a href="javascript:void(0)" onClick={toggleMenu} className="sidenav-trigger right">
+            <a onClick={toggleMenu} className="sidenav-trigger waves-effect right">
               <i className="material-icons">menu</i>
             </a>
             <div
